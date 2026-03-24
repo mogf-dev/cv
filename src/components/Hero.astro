@@ -31,8 +31,7 @@ const printInfo = [url, email, phone, ].filter(Boolean).join(" | ");
         {city}, {country}
       </span>
        <footer class="print">{printInfo}</footer>
-      <footer class="no-print">
-       
+      <footer class="no-print">   
         {
           url && (
             <a
@@ -72,7 +71,6 @@ const printInfo = [url, email, phone, ].filter(Boolean).join(" | ");
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network as keyof typeof SOCIAL_ICONS];
-
             return (
               <a
                 href={url}
@@ -116,7 +114,7 @@ const printInfo = [url, email, phone, ].filter(Boolean).join(" | ");
   .profile img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 8rem;
+    width: 7.5rem;
     border-radius: 50%;
   }
 

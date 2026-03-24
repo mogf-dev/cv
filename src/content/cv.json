@@ -113,7 +113,7 @@
     "summary": "Un programa de estudios intensivo y online 700 horas de cursado teórico-práctico. "
   },
   {
-    "institution": "USIL",
+    "institution": "ISIL",
     "url": "https://www.uoc.edu/portal/es/index.html",
     "area": "Diseño y Desarrollo de Videojuegos",
     "studyType": "Bachelor",
@@ -296,10 +296,10 @@
       "highlights": [
         "Astro",
         "Tailwind CSS",
-        "Ninja Keys",
+        "Vercel",
         "Figma"
       ],
-      "url": "https://torresc.netlify.app"
+      "url": "https://torreshc.vercel.app"
     },
     {
       "name": "SISCOG",
